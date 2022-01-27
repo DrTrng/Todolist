@@ -1,0 +1,25 @@
+.icon-wrapper {
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 40px;
+    color:grey;
+    background: white;
+    transition: 250ms all ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        color:black;
+    }
+}
+
+.headercontainer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+app-todo-input{
+    width: 100%;
+}
